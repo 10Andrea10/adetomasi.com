@@ -47,9 +47,31 @@ export default function Timeline() {
                                         <h4 className="text-lg font-semibold mb-4 text-blue-600 dark:text-blue-400">
                                             {job.company}
                                         </h4>
-                                        <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                                            {job.description}
-                                        </p>
+                                        <div className="text-zinc-600 dark:text-zinc-400 leading-relaxed whitespace-pre-line">
+                                            {job.description.split('\n').map((line, i) => {
+                                                // Check if line starts with bullet point
+                                                if (line.trim().startsWith('•')) {
+                                                    return (
+                                                        <div key={i} className="flex gap-2 mb-1">
+                                                            <span className="text-purple-500 font-bold">•</span>
+                                                            <span>{line.trim().substring(1).trim()}</span>
+                                                        </div>
+                                                    );
+                                                }
+                                                // Check if line starts with **Tech:**
+                                                if (line.trim().startsWith('**Tech:**')) {
+                                                    const techText = line.replace('**Tech:**', '').trim();
+                                                    return (
+                                                        <div key={i} className="mt-3 pt-3 border-t border-zinc-300 dark:border-zinc-700">
+                                                            <span className="font-bold text-zinc-800 dark:text-zinc-200">Tech: </span>
+                                                            <span className="text-sm">{techText}</span>
+                                                        </div>
+                                                    );
+                                                }
+                                                // Regular line
+                                                return line ? <p key={i} className="mb-2">{line}</p> : <br key={i} />;
+                                            })}
+                                        </div>
                                     </div>
                                 </div>
                             </div>

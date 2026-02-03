@@ -39,7 +39,7 @@ export const personalInfo: PersonalInfo = {
     title: "Cloud Architect & DevOps Engineer",
     email: "andreadetodev@gmail.com",
     location: "Vicenza, Veneto, Italy",
-    bio: "Cloud Architect and DevOps Engineer focused on scalable, secure, and easily maintainable infrastructures. Curious and always seeking opportunities to learn, I enjoy transforming complex problems into simple solutions, following the KISS principle: 'Keep It Simple, Stupid.' In my free time, I enjoy practicing sports and spending time in nature, whether it's going for a walk or flying paragliders.",
+    bio: "Cloud Architect and DevOps Engineer focused on scalable, secure, and maintainable infrastructures. I transform complex problems into simple solutions following the KISS principle. Passionate about automation, cost optimization, and cloud security.",
     availability: "Available for freelance projects",
     website: "https://adetomasi.com",
     linkedin: "andrea-de-tomasi",
@@ -73,7 +73,7 @@ export const workExperience: WorkExperience[] = [
         company: "Freelance",
         period: "January 2025 - Present",
         description:
-            "Design and implementation of scalable cloud infrastructures, with a focus on cost optimization, automation, and data security. Achieved AWS cost reductions of 30–50% for customers through strategic FinOps implementations, autoscaling policies, and migrations. Conducted cloud architecture security audits, identifying potential vulnerabilities. Designed Cloud solutions integrated with development teams, using AWS managed services with Terraform and DevOps practices for automated deployments. Implemented infrastructure monitoring systems, preventing potential downtime of critical services through alerting and dashboards.",
+            "Design and implementation of scalable cloud infrastructures with focus on cost optimization and security.\n\n• Achieved 30-50% AWS cost reductions through FinOps implementations and autoscaling\n• Conducted cloud architecture security audits identifying critical vulnerabilities\n• Implemented monitoring systems preventing downtime through proactive alerting\n• Designed cloud solutions with Terraform and DevOps automation\n\n**Tech:** AWS, Terraform, FinOps, Security Auditing, Monitoring",
     },
     {
         id: "2",
@@ -81,7 +81,7 @@ export const workExperience: WorkExperience[] = [
         company: "Icaro",
         period: "January 2025 - January 2026",
         description:
-            "Design and implementation of Cloud infrastructure for an internal product. IoT Infrastructure: setup and configuration of AWS IoT Core, MQTT, Timestream, Firehose to receive data from IoT devices, perform batching and compression. Large Scale Query: setup for visualizing IoT device metrics via Grafana, using AWS Athena for time-series data queries on S3. Cloud Infrastructure: Designed and implemented cloud infrastructure on AWS (Networking, Database, Security, Computing, ECS, SSL Certificates, Domains, Load Balancing, RBAC). Infrastructure as Code with Terraform. Developed CI/CD pipelines on GitLab to automate testing, building, and deployment. Implemented autoscaling strategies, backup solutions, and monitoring/alerting systems.",
+            "End-to-end cloud infrastructure design for IoT product handling thousands of devices.\n\n• Built AWS IoT infrastructure with MQTT, Timestream, and Firehose for device data ingestion\n• Configured Grafana dashboards with Athena for large-scale time-series queries on S3\n• Designed complete AWS infrastructure: Networking, RDS, ECS, Load Balancing, RBAC\n• Developed GitLab CI/CD pipelines for automated testing and deployment\n• Implemented autoscaling, backup strategies, and comprehensive monitoring\n\n**Tech:** AWS IoT Core, MQTT, Timestream, Athena, Grafana, Terraform, GitLab CI, Node-Red",
     },
     {
         id: "3",
@@ -89,7 +89,7 @@ export const workExperience: WorkExperience[] = [
         company: "Technology Reply",
         period: "January 2024 - January 2025",
         description:
-            "Oracle Cloud Infrastructure: Management of Oracle Cloud environments with Terraform and Kubernetes, across four environments between production and development. GitLab & CI/CD: Development of pipelines for automatic deployment of infrastructures and applications, configuration and management of projects and permissions. Infrastructure Observability: Setup of an observability project for an infrastructure of ~1,000 servers with EasyVista Observe and Zabbix. Log Management: Evaluation of log management solutions (Datadog, Grafana, Elastic) for centralized monitoring and analysis. RAG Chains: Development of RAG chains with LangChain and OpenAI or Transformer backends, integrating internal documentation and email history. Q/A Bot: Development of a Q/A bot based on RAG on customer incident history, with cloud service on GPU and OpenAI-compatible APIs for greater privacy and performance.",
+            "Multi-cloud infrastructure management and AI/ML solution development.\n\n• Managed Oracle Cloud environments with Terraform and Kubernetes (4 environments)\n• Built observability platform for ~1,000 servers using Zabbix and EasyVista\n• Developed RAG chains with LangChain integrating documentation and email history\n• Created Q/A bot with OpenAI-compatible APIs on GPU for enhanced privacy\n• Evaluated and implemented log management solutions (Datadog, Grafana, Elastic)\n\n**Tech:** OCI, Kubernetes, Terraform, LangChain, RAG, OpenAI APIs, Zabbix, GitLab CI",
     },
     {
         id: "4",
@@ -97,7 +97,7 @@ export const workExperience: WorkExperience[] = [
         company: "2hire",
         period: "March 2023 - January 2024",
         description:
-            "AWS Infrastructure: Management of AWS infrastructure with CDK and DevOps practices (ECS, EC2, S3, Timestream). Backend TypeScript: Development and maintenance of backend services in TypeScript. IoT & MQTT: Management of MQTT data reception from edge devices, processing via gateway, and forwarding to AWS Timestream. Data consumption from backend services for charts and real-time visualization. Deployment and Monitoring: Setup of deployment pipelines and application monitoring with Grafana, AWS CloudWatch, and Prometheus. Agile: Working in an Agile context with Git, Jira, and Kanban, actively participating in Scrum ceremonies. Log Management: Contribution to a log compression system on Google Cloud Buckets and on-the-fly decompression via Elastic.",
+            "Full-stack cloud infrastructure and backend development with IoT integration.\n\n• Managed AWS infrastructure with CDK (ECS, EC2, S3, Timestream)\n• Built TypeScript backend services and RESTful APIs\n• Implemented MQTT data pipeline from IoT devices to AWS Timestream\n• Configured monitoring with Grafana, CloudWatch, and Prometheus\n• Developed log compression system on Google Cloud with Elastic\n\n**Tech:** AWS CDK, TypeScript, IoT MQTT, Timestream, Grafana, Prometheus, Elastic",
     },
 ];
 
@@ -107,21 +107,21 @@ export const education: Education[] = [
         degree: "Master's Degree in Cloud and Network Infrastructure",
         institution: "Technische Universität Berlin",
         period: "2022 - 2023",
-        description: "Cloud computing (Flink, Hadoop, OpenStack, Kubernetes, Ansible, AWS), Blockchain prototyping on Tezos Layer 2 Blockchain",
+        description: "Cloud computing, Kubernetes, Ansible, AWS, Blockchain prototyping on Tezos Layer 2",
     },
     {
         id: "2",
         degree: "Master's Degree in Cloud and Network Infrastructure",
         institution: "Université de Rennes 1",
         period: "2021 - 2022",
-        description: "Internet Networks, Microservices and container technologies, Multiprocessor Coordination, Performance evaluation models, Distributed architectures, Distributed services, Distributed and concurrent programming with OpenMP, Open MPI and CUDA",
+        description: "Microservices, Distributed systems, Concurrent programming (OpenMP, MPI, CUDA)",
     },
     {
         id: "3",
         degree: "Bachelor's Degree in Computer Science",
         institution: "Università di Padova",
         period: "2018 - 2021",
-        description: "Fundamentals of Computer Science and Software Engineering",
+        description: "Computer Science and Software Engineering fundamentals",
     },
 ];
 
@@ -163,28 +163,28 @@ export const projects: Project[] = [
         id: "1",
         title: "Blockchain Layer 2 with Zero-Knowledge Rollups",
         description:
-            "Complete design and implementation from scratch of a Layer 2 using zero-knowledge rollups for Tezos blockchain. Wrote and deployed the program and smart contracts to manage and verify rollups, achieving a 99% reduction in L1 transaction costs. Master's Thesis project at Technische Universität Berlin.",
+            "Master's thesis: Designed and implemented a Layer 2 solution for Tezos blockchain using zero-knowledge rollups. Achieved 99% reduction in L1 transaction costs through custom smart contracts and rollup verification.",
         technologies: ["Blockchain", "Tezos", "Zero-Knowledge Proofs", "Smart Contracts", "Layer 2"],
     },
     {
         id: "2",
         title: "AWS IoT Infrastructure for Device Metrics",
         description:
-            "Designed and implemented a complete IoT infrastructure on AWS for receiving, processing, and visualizing metrics from thousands of IoT devices. Utilized AWS IoT Core, MQTT, Timestream, Firehose for data ingestion, and Grafana with Athena for large-scale time-series queries on S3.",
+            "Complete IoT infrastructure for thousands of devices. Built data ingestion pipeline with AWS IoT Core, MQTT, and Timestream. Implemented large-scale visualization using Grafana and Athena for time-series queries on S3.",
         technologies: ["AWS IoT Core", "MQTT", "Timestream", "Firehose", "Athena", "Grafana", "S3", "Node-Red"],
     },
     {
         id: "3",
         title: "RAG-based Q/A Bot with LangChain",
         description:
-            "Developed an intelligent Q/A bot based on Retrieval-Augmented Generation (RAG) using customer incident history. Implemented with LangChain and OpenAI-compatible APIs running on GPU cloud services for enhanced privacy and performance. Integrated internal documentation and email history for comprehensive knowledge base.",
+            "Intelligent Q/A bot using Retrieval-Augmented Generation on customer incident history. Deployed with OpenAI-compatible APIs on GPU cloud for enhanced privacy and performance. Integrated documentation and email history.",
         technologies: ["LangChain", "RAG", "OpenAI APIs", "Python", "GPU Computing", "NLP"],
     },
     {
         id: "4",
         title: "Multi-Environment Oracle Cloud Infrastructure",
         description:
-            "Managed Oracle Cloud Infrastructure environments with Terraform and Kubernetes across four environments (production and development). Developed GitLab CI/CD pipelines for automatic deployment of infrastructures and applications. Set up observability for ~1,000 servers using EasyVista Observe and Zabbix.",
+            "Managed OCI environments with Terraform and Kubernetes across 4 environments. Built GitLab CI/CD pipelines for automated infrastructure deployment. Implemented observability for ~1,000 servers with Zabbix.",
         technologies: ["OCI", "Terraform", "Kubernetes", "GitLab CI", "Zabbix", "EasyVista Observe"],
     },
 ];
