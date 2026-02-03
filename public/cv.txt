@@ -1,0 +1,168 @@
+About Me
+Cloud Architect and DevOps Engineer focused on scalable, secure, and easily
+maintainable infrastructures. Curious and always seeking opportunities to learn, I enjoy
+transforming complex problems into simple solutions, following the KISS principle,
+"Keep It Simple, Stupid."
+
+Andrea De Tomasi
+Cloud Architect & DevOps Engineer AWS ·
+Kubernetes · Terraform · FinOps
+andreadetodev@gmail.com
++393281962978
+Vicenza, Veneto, Italy
+https://adetomasi.com
+
+ andrea-de-tomasi
+
+In my free time, I enjoy practicing sports and spending time in nature, whether it's
+going for a walk or flying paragliders.
+Experience
+Freelance
+Cloud Architecture Consultant
+AWS · Terraform · Kubernetes · FinOps · Security
+
+January 2025 - Present
+
+Design and implementation of scalable cloud infrastructures, with a focus on cost
+optimization, automation, and data security.
+Achieved AWS cost reductions of 30–50% for customers through strategic FinOps
+implementations, autoscaling policies, and migrations.
+
+Certifications
+
+Conducted cloud architecture security audits, identifying potential vulnerabilities.
+
+CKA: Certified Kubernetes Administrator
+October 2025
+
+Designed Cloud solutions integrated with development teams, using AWS managed
+
+Linux Foundation
+
+Implemented infrastructure monitoring systems, preventing potential downtime of
+critical services through alerting and dashboards.
+
+AWS Certified Solutions Architect Professional
+In progress
+AWS
+OCI Architect Associate
+April 2024
+Oracle
+Cisco CCNA Routing and Switching
+CISCO
+IELTS Academy English C1
+Skills
+Cloud: AWS, OCI
+Containers: Kubernetes, ECS, EKS
+IaC: Terraform, AWS CDK, Ansible
+CI/CD: GitLab CI
+Observability: Grafana, CloudWatch,
+Zabbix
+Programming: TypeScript, Python
+
+services with Terraform and DevOps practices for automated deployments.
+
+https://adetomasi.com
+Icaro
+
+Remote
+
+Cloud Architect
+January 2025 - January 2026
+EC2 · ECS · RDS · Networking · IoT MQTT · Aurora · Athena · Firehose · Terraform
+Design and implementation of Cloud infrastructure for an internal product
+IoT Infrastructure: setup and configuration of AWS IoT Core, MQTT, Timestream,
+Firehose to receive data from IoT devices, perform batching and compression.
+Large Scale Query: setup for visualizing IoT device metrics via Grafana, using AWS
+Athena for time-series data queries on S3.
+Edge Device: configuration of IoT devices using Node-Red for in-place processing,
+before forwarding data to AWS.
+Cloud Infrastructure: Designed and implemented cloud infrastructure on AWS for an
+internal product. Networking, Database, Security, Computing, ECS, SSL Certificates,
+Domains, Load Balancing, RBAC.
+Infrastructure as Code (IaC) with Terraform: Managed the entire AWS infrastructure
+using Terraform.
+
+
+CI/CD Pipeline Development: Developed CI/CD pipelines on GitLab to automate
+testing, building, and deployment.
+
+AI: LangChain, RAG, OpenAIcompatible APIs
+
+Autoscaling, Backup and Monitoring: Implemented autoscaling strategies, backup
+solutions, and monitoring/alerting systems.
+AWS RDS and Database Management: Designed and managed AWS RDS instances
+Technology Reply
+Cloud & AI Engineer
+January 2024 - January 2025
+AWS · OCI · Kubernetes · Terraform · RAG · LangChain · OpenAI APIs
+Oracle Cloud Infrastructure: Management of Oracle Cloud environments with
+Terraform and Kubernetes, across four environments between production and
+development.
+GitLab & CI/CD: Development of pipelines for automatic deployment of
+infrastructures and applications, configuration and management of projects and
+permissions
+Infrastructure Observability: Setup of an observability project for an infrastructure
+of ~1,000 servers with EasyVista Observe and Zabbix.
+Log Management: Evaluation of log management solutions (Datadog, Grafana,
+Elastic) for centralized monitoring and analysis.
+RAG Chains: Development of RAG chains with LangChain and OpenAI or
+Transformer backends, integrating internal documentation and email history.
+Q/A Bot: Development of a Q/A bot based on RAG on customer incident history, with
+cloud service on GPU and OpenAI-compatible APIs for greater privacy and
+performance.
+2hire
+Backend Developer / Cloud Engineer
+March 2023 - January 2024
+Typescript · CDK · AWS · Timestream · Grafana · Prometheus
+AWS Infrastructure: Management of AWS infrastructure with CDK and DevOps
+practices (ECS, EC2, S3, Timestream).
+Backend TypeScript: Development and maintenance of backend services in
+TypeScript.
+IoT & MQTT: Management of MQTT data reception from edge devices, processing via
+gateway, and forwarding to AWS Timestream. Data consumption from backend
+services for charts and real-time visualization.
+Deployment and Monitoring: Setup of deployment pipelines and application
+monitoring with Grafana, AWS CloudWatch, and Prometheus
+Agile: Working in an Agile context with Git, Jira, and Kanban, actively participating in
+Scrum ceremonies.
+Log Management: Contribution to a log compression system on Google Cloud
+Buckets and on-the-fly decompression via Elastic.
+Education
+Technische Universität Berlin
+Blockchain Prototyping
+
+Master's Thesis
+2022
+
+Complete design and implementation from scratch of a Layer 2 using zero-knowledge
+rollups for Tezos blockchain.
+Wrote and deployed the program and smart contracts to manage and verify rollups,
+achieving a 99% reduction in L1 transaction costs.
+Technische Universität Berlin
+Cloud and Network Infrastructure
+
+Master's Degree
+2022 - 2023
+
+Cloud computing (Flink, Hadoop, OpenStack, Kubernetes, Ansible, AWS)
+Blockchain prototyping on Tezos Layer 2 Blockchain
+Université de Rennes 1
+Cloud and Network Infrastructure
+
+Master's Degree
+2021 - 2022
+
+Internet Networks
+Microservices and container technologies
+Multiprocessor Coordination
+Performance evaluation models
+Distributed architectures
+Distributed services
+Distributed and concurrent programming with OpenMP, Open MPI and CUDA
+Università di Padova
+Computer Science
+
+Bachelor's Degree
+
+
